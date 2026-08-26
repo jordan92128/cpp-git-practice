@@ -1,0 +1,23 @@
+1) You want to determine which files have changed.
+$ git status - Shows the current state of files and the Staging Area.
+
+2) You want to prepare main.cpp for the next commit.
+$ git add "main.cpp" - Places a change into the Staging Area.
+
+3) You want to record your staged changes in your local repository.
+$ git add commit -m "message" - Records staged changes into the local repository.
+
+4) You want to send your local commits to GitHub.
+$ git push - Shares commits through GitHub.
+
+5) Your partner pushed new code and you want to retrieve and integrate it.
+$ git pull - Retrieves and integrates previous modifications.
+
+6) You want to check for remote changes without immediately integrating them into your branch.
+$ git fetch - Retrieves information about remote changes without integration. Typically followed by git status.
+
+7) You have fetched origin/main and now want to integrate it.
+$ git merge origin/main - Remotely integrates the inforamtion downloaded from a central source. 
+
+8) You want to see previous commits.
+$ git log - displays commit history
